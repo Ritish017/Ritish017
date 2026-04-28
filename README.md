@@ -17,7 +17,7 @@
 <!-- ═══ ANIMATED TYPING INTRO ═════════════════════════════════════ -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=720&lines=Building+production+AI+systems+that+actually+ship.;Multi-agent+orchestration+%C2%B7+LangGraph+%C2%B7+MCP+%C2%B7+RAG;Currently+training+a+24-agent+system+to+code+for+humans.;%22Context+is+the+failure+mode.+Not+capability.%22)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=900&lines=+Building+production+AI+systems+that+actually+ship.;+Multi-agent+orchestration+%C2%B7+LangGraph+%C2%B7+MCP+%C2%B7+RAG;+Currently+shipping+a+24-agent+Claude+Code+system.;+%22Context+is+the+failure+mode.+Not+capability.%22)](https://git.io/typing-svg)
 
 </div>
 
