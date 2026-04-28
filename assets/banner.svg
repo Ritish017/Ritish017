@@ -1,0 +1,172 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <radialGradient id="b1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="60%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="taglineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="#0D1117"/>
+
+  <!-- Atmospheric blobs -->
+  <circle cx="1320" cy="90"  r="280" fill="url(#b1)"/>
+  <circle cx="120"  cy="430" r="220" fill="url(#b2)"/>
+  <circle cx="1180" cy="450" r="160" fill="url(#b3)"/>
+  <circle cx="700"  cy="250" r="140" fill="url(#b1)" opacity="0.5"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1500" height="4" fill="#00D4FF"/>
+
+  <!-- Subtle grid texture (matrix vibe) -->
+  <g opacity="0.06" stroke="#00D4FF" stroke-width="1">
+    <line x1="0" y1="100" x2="1500" y2="100"/>
+    <line x1="0" y1="200" x2="1500" y2="200"/>
+    <line x1="0" y1="300" x2="1500" y2="300"/>
+    <line x1="0" y1="400" x2="1500" y2="400"/>
+    <line x1="200"  y1="0" x2="200"  y2="500"/>
+    <line x1="500"  y1="0" x2="500"  y2="500"/>
+    <line x1="800"  y1="0" x2="800"  y2="500"/>
+    <line x1="1100" y1="0" x2="1100" y2="500"/>
+  </g>
+
+  <!-- ─── LEFT SIDE: IDENTITY ──────────────────────────────────────────── -->
+
+  <!-- Identity tag -->
+  <g transform="translate(80, 90)">
+    <circle cx="10" cy="10" r="10" fill="#00D4FF" opacity="0.18"/>
+    <circle cx="10" cy="10" r="5"  fill="#00D4FF"/>
+    <text x="40" y="16" fill="#00D4FF" font-family="JetBrains Mono, Consolas, monospace" font-weight="700" font-size="18" letter-spacing="5">AI ENGINEER  ·  MULTI-AGENT SYSTEMS</text>
+  </g>
+
+  <!-- Big name -->
+  <text x="80" y="220" fill="url(#textGrad)" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="92" letter-spacing="-1">Ritish Kurma</text>
+
+  <!-- Tagline -->
+  <text x="80" y="288" fill="url(#taglineGrad)" font-family="Arial, sans-serif" font-weight="800" font-size="34">Building AI that thinks &amp; ships.</text>
+
+  <!-- Sub tagline -->
+  <text x="80" y="338" fill="#94A3B8" font-family="Arial, sans-serif" font-weight="500" font-size="22">LangGraph · MCP · RAG · Production AI · Multi-agent orchestration</text>
+
+  <!-- Bottom row: status pills -->
+  <g transform="translate(80, 410)">
+
+    <!-- Cognizant pill -->
+    <rect x="0" y="0" width="180" height="40" rx="6" fill="rgba(0,212,255,0.10)" stroke="#00D4FF" stroke-width="1.5"/>
+    <text x="90" y="26" fill="#00D4FF" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="2">@ COGNIZANT</text>
+
+    <!-- Location pill -->
+    <rect x="200" y="0" width="200" height="40" rx="6" fill="rgba(139,92,246,0.10)" stroke="#8B5CF6" stroke-width="1.5"/>
+    <text x="300" y="26" fill="#A78BFA" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1">HYDERABAD · INDIA</text>
+
+    <!-- Status pill -->
+    <rect x="420" y="0" width="290" height="40" rx="6" fill="rgba(16,185,129,0.10)" stroke="#10B981" stroke-width="1.5"/>
+    <circle cx="445" cy="20" r="5" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="565" y="26" fill="#34D399" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1">OPEN TO SENIOR AI ENGINEER ROLES</text>
+
+  </g>
+
+  <!-- ─── RIGHT SIDE: AGENT ARCHITECTURE VISUAL ────────────────────────── -->
+
+  <g transform="translate(950, 100)">
+
+    <!-- Section label -->
+    <text x="0" y="0" fill="#64748B" font-family="JetBrains Mono, monospace" font-weight="700" font-size="11" letter-spacing="4">// MULTI-AGENT ARCHITECTURE</text>
+
+    <!-- Layer 1: CORE -->
+    <g transform="translate(0, 30)">
+      <text x="0" y="14" fill="#00D4FF" font-family="JetBrains Mono, monospace" font-weight="700" font-size="11" letter-spacing="3">CORE · 7</text>
+      <g transform="translate(0, 28)">
+        <rect x="0"   y="0" width="60" height="22" rx="11" fill="rgba(0,212,255,0.12)" stroke="#00D4FF" stroke-width="0.8"/>
+        <rect x="68"  y="0" width="60" height="22" rx="11" fill="rgba(0,212,255,0.12)" stroke="#00D4FF" stroke-width="0.8"/>
+        <rect x="136" y="0" width="60" height="22" rx="11" fill="rgba(0,212,255,0.12)" stroke="#00D4FF" stroke-width="0.8"/>
+        <rect x="204" y="0" width="60" height="22" rx="11" fill="rgba(0,212,255,0.12)" stroke="#00D4FF" stroke-width="0.8"/>
+        <rect x="272" y="0" width="60" height="22" rx="11" fill="rgba(0,212,255,0.12)" stroke="#00D4FF" stroke-width="0.8"/>
+        <rect x="340" y="0" width="60" height="22" rx="11" fill="rgba(0,212,255,0.12)" stroke="#00D4FF" stroke-width="0.8"/>
+        <rect x="408" y="0" width="60" height="22" rx="11" fill="rgba(0,212,255,0.12)" stroke="#00D4FF" stroke-width="0.8"/>
+      </g>
+    </g>
+
+    <!-- Layer 2: CATALOG -->
+    <g transform="translate(0, 110)">
+      <text x="0" y="14" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-weight="700" font-size="11" letter-spacing="3">CATALOG · 11</text>
+      <g transform="translate(0, 28)">
+        <!-- Row 1: 7 -->
+        <rect x="0"   y="0" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <rect x="63"  y="0" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <rect x="126" y="0" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <rect x="189" y="0" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <rect x="252" y="0" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <rect x="315" y="0" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <rect x="378" y="0" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <!-- Row 2: 4 -->
+        <rect x="0"   y="28" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <rect x="63"  y="28" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <rect x="126" y="28" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+        <rect x="189" y="28" width="55" height="22" rx="11" fill="rgba(139,92,246,0.12)" stroke="#8B5CF6" stroke-width="0.8"/>
+      </g>
+    </g>
+
+    <!-- Layer 3: CRITICS -->
+    <g transform="translate(0, 220)">
+      <text x="0" y="14" fill="#34D399" font-family="JetBrains Mono, monospace" font-weight="700" font-size="11" letter-spacing="3">CRITICS · 6</text>
+      <g transform="translate(0, 28)">
+        <rect x="0"   y="0" width="65" height="22" rx="11" fill="rgba(16,185,129,0.12)" stroke="#10B981" stroke-width="0.8"/>
+        <rect x="73"  y="0" width="65" height="22" rx="11" fill="rgba(16,185,129,0.12)" stroke="#10B981" stroke-width="0.8"/>
+        <rect x="146" y="0" width="65" height="22" rx="11" fill="rgba(16,185,129,0.12)" stroke="#10B981" stroke-width="0.8"/>
+        <rect x="219" y="0" width="65" height="22" rx="11" fill="rgba(16,185,129,0.12)" stroke="#10B981" stroke-width="0.8"/>
+        <rect x="292" y="0" width="65" height="22" rx="11" fill="rgba(16,185,129,0.12)" stroke="#10B981" stroke-width="0.8"/>
+        <rect x="365" y="0" width="65" height="22" rx="11" fill="rgba(16,185,129,0.12)" stroke="#10B981" stroke-width="0.8"/>
+      </g>
+    </g>
+
+    <!-- Connecting lines suggestive of orchestration -->
+    <g stroke="#1E293B" stroke-width="1" fill="none">
+      <path d="M 100 80 Q 100 110 100 140" />
+      <path d="M 250 80 Q 250 110 250 140" />
+      <path d="M 100 220 Q 100 250 100 280" />
+      <path d="M 250 220 Q 250 250 250 280" />
+    </g>
+
+    <!-- Stat block -->
+    <g transform="translate(0, 320)">
+      <text x="0" y="0" fill="#64748B" font-family="JetBrains Mono, monospace" font-weight="700" font-size="11" letter-spacing="3">// STATS</text>
+      <text x="0" y="30" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="800" font-size="22">24<tspan fill="#64748B" font-weight="500" font-size="14"> AGENTS</tspan></text>
+      <text x="100" y="30" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="800" font-size="22">60+<tspan fill="#64748B" font-weight="500" font-size="14"> CHECKS</tspan></text>
+      <text x="220" y="30" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="800" font-size="22">∞<tspan fill="#64748B" font-weight="500" font-size="14"> EXTENDABLE</tspan></text>
+    </g>
+
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="496" width="1500" height="4" fill="#00D4FF" opacity="0.4"/>
+
+  <!-- Corner marks -->
+  <g stroke="#1E293B" stroke-width="2" fill="none">
+    <path d="M 30 30 L 30 60 M 30 30 L 60 30" />
+    <path d="M 1470 30 L 1440 30 M 1470 30 L 1470 60" />
+    <path d="M 30 470 L 30 440 M 30 470 L 60 470" />
+    <path d="M 1470 470 L 1440 470 M 1470 470 L 1470 440" />
+  </g>
+
+</svg>
